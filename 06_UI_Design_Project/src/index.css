@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+.marquee-wrapper {
+    height: 100%;
+    overflow: hidden;
+}
+
+.marquee-track {
+    display: flex;
+    height: 100%;
+    width: max-content;
+    gap: 1.75rem;
+    animation: marquee-scroll 13s linear infinite;
+}
+
+.marquee-track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes marquee-scroll {
+     from{
+
+      transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-50% - 0.875rem));
+    }
+}
