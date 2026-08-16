@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.nav{
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+    background-color: #333;
+    align-items: center;
+    padding: 10px 20px;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 16px;
+}

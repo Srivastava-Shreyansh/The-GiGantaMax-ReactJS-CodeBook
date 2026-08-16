@@ -16,6 +16,7 @@
 // import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
+import NavBar from "./components/NavBar";
 
 const App = () => {
 /*
@@ -77,6 +78,8 @@ const App = () => {
     // console.log("useEffect is running!");
   }, [b])
 
+  const [theme, setTheme] = useState("Light")
+
   return (
     /*<div>
       <button onClick={getData}>Click Here🫵</button>
@@ -101,6 +104,10 @@ const App = () => {
     setB(b + 1)
     }}>Change B❤️</button>
 
+    {/* Change from Child to Parent */}
+    <h1>Theme is {theme}</h1>
+
+    <NavBar theme={theme} setTheme={setTheme}/>
     </div>
   )
 }

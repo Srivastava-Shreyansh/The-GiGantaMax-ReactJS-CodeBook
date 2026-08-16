@@ -55,12 +55,12 @@ h1{
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Josefin+Slab');
 
 body {
-  background-color: rgb(86, 7, 161);
+  background-color: #333;
 }
 @keyframes darken {
-  0%{ font-size: 100px;  color:#444;}
-  50%{font-size: 200px; color:#222}
-  100% {font-size: 250px; color:#111}
+  0%{ font-size: 25px;  color:crimson;}
+  50%{font-size: 50px; color:crimson}
+  100% {font-size: 70px; color:crimson}
 }
   
 
@@ -73,12 +73,14 @@ h1 {
   animation-duration: 5s;
   animation-iteration-count: infinite;
   white-space: nowrap;
+  text-transform: capitalize;
 }
 
 h3 {
   font-family: 'Josefin Slab', serif;
-  margin: 0 auto;
+  padding: 10px 100px;
   display: block;
   text-align: center;
   font-size: 30px;
+  color:red;
 }
