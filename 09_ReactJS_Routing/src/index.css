@@ -1,86 +1,11 @@
 @import "tailwindcss";
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
+@theme {
+  --animate-darken: darken 5s infinite;
 
-html, body {
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    color: white;
-}
-
-.nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 40px;
-    background-color: black;
-    font-size: x-large;
-    font-weight: 600;
-}
-
-.nav div{
-    display: flex;
-    align-items: center;
-    gap: 40px;
-} 
-
-h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size:50px;
-    font-weight: 600;
-}
-
-.footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 40px;
-    background-color: black;
-    font-size: x-large;
-    font-weight: 600;
-    position: absolute;
-    bottom: 0;
-    width:100%;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Josefin+Slab');
-
-body {
-  background-color: #333;
-}
-@keyframes darken {
-  0%{ font-size: 25px;  color:crimson;}
-  50%{font-size: 50px; color:crimson}
-  100% {font-size: 70px; color:crimson}
-}
-  
-
-h1 {
-  font-family: 'Alfa Slab One', cursive;
-  margin: 0 auto;
-  display: block;
-  text-align: center;
-  animation-name: darken;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  white-space: nowrap;
-  text-transform: capitalize;
-}
-
-h3 {
-  font-family: 'Josefin Slab', serif;
-  padding: 10px 100px;
-  display: block;
-  text-align: center;
-  font-size: 30px;
-  color:red;
+  @keyframes darken {
+    0% { font-size: 25px; color: crimson; }
+    50% { font-size: 50px; color: crimson; }
+    100% { font-size: 70px; color: crimson; }
+  }
 }

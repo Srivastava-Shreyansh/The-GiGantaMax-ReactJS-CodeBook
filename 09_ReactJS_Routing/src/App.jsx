@@ -15,7 +15,7 @@ import Navigation from "./components/Navigation";
 
 const App = () => {
   return (
-    <div>
+    <div className="min-h-screen overflow-x-hidden bg-[#07070b] text-white selection:bg-fuchsia-500 selection:text-white">
       <NavBar />
       <Navigation />
       <Routes>
