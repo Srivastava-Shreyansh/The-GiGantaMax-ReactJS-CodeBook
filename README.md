@@ -25,7 +25,7 @@ This entire repository is purely dedicated to **Sarthak Sir** and the powerhouse
 
 - [x] Phase 01: JSX Wizardry & Component Architecture
 - [x] Phase 02: State, Props, & The Hook Matrix (`useState`, `useEffect`)
-- [ ] Phase 03: Advanced React Patterns (Context API, Custom Hooks, Redux Toolkit)
+- [x] Phase 03: Advanced React Patterns (Context API, Custom Hooks, Redux Toolkit)
 
 ---
 <p align="center">
